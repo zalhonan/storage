@@ -20,4 +20,5 @@ func (s *Storage) Upload(filename string, blob []byte) (file.File, error) {
 	}
 
 	return newFile, nil
+
 }
